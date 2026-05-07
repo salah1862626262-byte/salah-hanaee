@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hanae & Me ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#0f0f0f;
+color:white;
+overflow-x:hidden;
+}
+
+/* HERO */
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.75)),
+url('https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?q=80&w=1600&auto=format&fit=crop');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero-content{
+max-width:900px;
+}
+
+.hero h1{
+font-size:85px;
+font-weight:800;
+margin-bottom:20px;
+}
+
+.hero h1 span{
+color:#ff4d6d;
+}
+
+.hero p{
+font-size:22px;
+line-height:1.8;
+opacity:.9;
+margin-bottom:40px;
+}
+
+.btn{
+display:inline-block;
+padding:16px 40px;
+background:#ff4d6d;
+color:white;
+text-decoration:none;
+border-radius:50px;
+font-weight:700;
+transition:.4s;
+}
+
+.btn:hover{
+transform:scale(1.08);
+background:#ff2d55;
+}
+
+/* TIMELINE */
+
+.timeline{
+max-width:1150px;
+margin:auto;
+padding:100px 20px;
+}
+
+.section-title{
+text-align:center;
+font-size:50px;
+margin-bottom:80px;
+font-weight:800;
+}
+
+.card{
+background:#171717;
+border-radius:30px;
+overflow:hidden;
+margin-bottom:90px;
+box-shadow:0 15px 45px rgba(0,0,0,.5);
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:100%;
+display:block;
+}
+
+.content{
+padding:40px;
+}
+
+.date{
+color:#ff4d6d;
+font-weight:700;
+letter-spacing:2px;
+margin-bottom:18px;
+font-size:14px;
+}
+
+.content h2{
+font-size:38px;
+margin-bottom:20px;
+}
+
+.content p{
+font-size:18px;
+line-height:2;
+color:#ddd;
+}
+
+.quote{
+margin-top:25px;
+font-size:22px;
+font-weight:600;
+color:white;
+}
+
+/* FINAL */
+
+.final{
+padding:120px 20px;
+text-align:center;
+background:linear-gradient(135deg,#111,#1f1f1f);
+}
+
+.final h1{
+font-size:65px;
+margin-bottom:25px;
+}
+
+.final p{
+max-width:900px;
+margin:auto;
+font-size:24px;
+line-height:2;
+color:#eee;
+}
+
+.heart{
+font-size:90px;
+margin-top:40px;
+animation:pulse 1.5s infinite;
+}
+
+/* FOOTER */
+
+footer{
+background:black;
+padding:30px;
+text-align:center;
+color:#888;
+font-size:15px;
+}
+
+/* ANIMATIONS */
+
+@keyframes pulse{
+0%{transform:scale(1);}
+50%{transform:scale(1.15);}
+100%{transform:scale(1);}
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:48px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+.section-title{
+font-size:35px;
+}
+
+.content h2{
+font-size:28px;
+}
+
+.content p{
+font-size:16px;
+}
+
+.final h1{
+font-size:40px;
+}
+
+.final p{
+font-size:18px;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Hanae <span>& Me ❤️</span></h1>
+
+<p>
+A beautiful love story full of memories,
+moments, happiness, sadness,
+and unconditional love ❤️
+</p>
+
+<a href="#story" class="btn">Our Story</a>
+
+</div>
+
+</section>
+
+<!-- STORY -->
+
+<section class="timeline" id="story">
+
+<h1 class="section-title">Our Timeline ❤️</h1>
+
+<!-- PHOTO 1 -->
+
+<div class="card">
+
+<img src="photo1.jpg">
+
+<div class="content">
+
+<div class="date">10 / 05 / 2025</div>
+
+<h2>The First Time I Knew Her ❤️</h2>
+
+<p>
+This was the beginning of everything...
+The first time I knew Hanae.
+I never imagined that one day
+she would become the most important person in my life ❤️
+</p>
+
+</div>
+
+</div>
+
+<!-- PHOTO 2 -->
+
+<div class="card">
+
+<img src="photo2.jpg">
+
+<div class="content">
+
+<div class="date">15 / 10 / 2025</div>
+
+<h2>We Started Our Relationship ❤️</h2>
+
+<p>
+This was the day our story officially started.
+The day I became the happiest person alive ❤️
+</p>
+
+</div>
+
+</div>
+
+<!-- PHOTO 3 -->
+
+<div class="card">
+
+<img src="photo3.jpg">
+
+<div class="content">
+
+<div class="date">25 / 10 / 2025 • 17:03</div>
+
+<h2>Our First Date 😍</h2>
+
+<p>
+Our first date together...
+I still remember every second of that beautiful day.
+We sat near the sea,
+talked for hours,
+laughed together,
+and everything felt perfect ❤️
+</p>
+
+<div class="quote">
+"You became my peace from the very first moment."
+</div>
+
+</div>
+
+</div>
+
+<!-- PHOTO 4 -->
+
+<div class="card">
+
+<img src="photo4.jpg">
+
+<div class="content">
+
+<div class="date">Second Meeting ❤️</div>
+
+<h2>A Beautiful Day Together</h2>
+
+<p>
+This day was unforgettable.
+We spent beautiful moments together
+and I felt truly happy beside you ❤️
+</p>
+
+</div>
+
+</div>
+
+<!-- PHOTO 5 -->
+
+<div class="card">
+
+<img src="photo5.jpg">
+
+<div class="content">
+
+<div class="date">Sad Moments 😔</div>
+
+<h2>Even Sadness Felt Better With You</h2>
+
+<p>
+We were not happy that day...
+because I had to leave.
+But even sadness with you
+felt softer than happiness without you 😔
+</p>
+
+</div>
+
+</div>
+
+<!-- PHOTO 6 -->
+
+<div class="card">
+
+<img src="photo6.jpg">
+
+<div class="content">
+
+<div class="date">14 / 04 / 2026 🎂</div>
+
+<h2>Birthday Surprise ❤️</h2>
+
+<p>
+After 6 months...
+we finally met again.
+And you made me the happiest person ever
+with your birthday surprise ❤️
+I will never forget that day.
+Never.
+</p>
+
+</div>
+
+</div>
+
+<!-- PHOTO 7 -->
+
+<div class="card">
+
+<img src="photo7.jpg">
+
+<div class="content">
+
+<div class="date">15 / 04 / 2026 ☀️</div>
+
+<h2>Morning Together</h2>
+
+<p>
+The next morning was magical.
+We took beautiful pictures together
+and enjoyed every second ❤️
+</p>
+
+</div>
+
+</div>
+
+<!-- PHOTO 8 -->
+
+<div class="card">
+
+<img src="photo8.jpg">
+
+<div class="content">
+
+<div class="date">Cute Memories ❤️</div>
+
+<h2>You & Me</h2>
+
+<p>
+Every picture with you
+became my favorite memory.
+Every smile,
+every look,
+every little moment ❤️
+</p>
+
+</div>
+
+</div>
+
+<!-- PHOTO 9 -->
+
+<div class="card">
+
+<img src="photo9.jpg">
+
+<div class="content">
+
+<div class="date">The Last Photo 😔</div>
+
+<h2>Going Back Home</h2>
+
+<p>
+This was the last picture before I went back to Ouezzane...
+I was sad,
+but deep inside,
+I knew my heart stayed with you ❤️
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FINAL -->
+
+<section class="final">
+
+<h1>To Hanae ❤️</h1>
+
+<p>
+Hanae...
+I just want you to know that I love you so much.
+More than words can explain.
+Thank you for every smile,
+every memory,
+every moment,
+and every beautiful feeling you gave me ❤️
+
+No matter what happens...
+you will always have a special place in my heart.
+</p>
+
+<div class="heart">❤️</div>
+
+</section>
+
+<footer>
+
+Made With Love ❤️
+
+</footer>
+
+</body>
+</html>
